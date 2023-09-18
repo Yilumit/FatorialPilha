@@ -1,6 +1,6 @@
 package view;
 /*
- * 	Fatorial de um número de 1 a 10 usando pilhas dinâmicas
+ * 	Fatorial de um  numero de 1 a 10 usando pilhas dinÃ¢micas
  */
 import javax.swing.JOptionPane;
 
@@ -14,13 +14,13 @@ public class Principal {
 		do {
 			num = Integer.parseInt(JOptionPane.showInputDialog("Insira um numero de 1 a 10 para calcular seu fatorial: "));
 			if (num < 1 || num > 10) {
-				JOptionPane.showMessageDialog(null, "Numero inválido!");
+				JOptionPane.showMessageDialog(null, "Numero invÃ¡lido!");
 			}
 			
 		} while (num < 1 || num > 10);
 		long fatorial = fat.fatorial(num); 
 		
-		JOptionPane.showMessageDialog(null, "Fatorial de "+num+" é "+fatorial);
+		JOptionPane.showMessageDialog(null, "Fatorial de "+num+" Ã© "+fatorial);
 	}
 
 }
